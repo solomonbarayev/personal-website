@@ -4,8 +4,6 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, Twitter, Linkedin, Mail } from "lucide-react";
-import { cn } from "@/lib/utils";
 
 interface SocialLink {
   icon: React.ReactNode;
